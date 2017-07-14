@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567E38781EBBFEF000872AB2 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 567E38771EBBFEF000872AB2 /* mine.png */; };
+		567E387A1EBC01F300872AB2 /* Glass_and_Metal_Collision.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 567E38791EBC01F300872AB2 /* Glass_and_Metal_Collision.mp3 */; };
+		56D8E76F1EB98F7C001BFE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E76E1EB98F7C001BFE15 /* AppDelegate.swift */; };
+		56D8E7711EB98F7C001BFE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E7701EB98F7C001BFE15 /* ViewController.swift */; };
+		56D8E7741EB98F7C001BFE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7721EB98F7C001BFE15 /* Main.storyboard */; };
+		56D8E7761EB98F7C001BFE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7751EB98F7C001BFE15 /* Assets.xcassets */; };
+		56D8E7791EB98F7C001BFE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7771EB98F7C001BFE15 /* LaunchScreen.storyboard */; };
+		56D8E7841EB98F7C001BFE15 /* Subma_ringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E7831EB98F7C001BFE15 /* Subma_ringTests.swift */; };
+		56D8E78F1EB98F7D001BFE15 /* Subma_ringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E78E1EB98F7D001BFE15 /* Subma_ringUITests.swift */; };
+		56D8E79D1EB9A00B001BFE15 /* gameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E79C1EB9A00B001BFE15 /* gameScene.swift */; };
+		56D8E79F1EB9A8E0001BFE15 /* menuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8E79E1EB9A8E0001BFE15 /* menuScene.swift */; };
+		56D8E7A11EBAE879001BFE15 /* propeller.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7A01EBAE879001BFE15 /* propeller.png */; };
+		56D8E7A31EBAE885001BFE15 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7A21EBAE885001BFE15 /* ring.png */; };
+		56D8E7A51EBAE88F001BFE15 /* smw_coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7A41EBAE88F001BFE15 /* smw_coin.wav */; };
+		56D8E7A71EBAE896001BFE15 /* submarine.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D8E7A61EBAE896001BFE15 /* submarine.png */; };
+		56D8E7AA1EBAFEAE001BFE15 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D8E7A91EBAFEAE001BFE15 /* SpriteKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56D8E7801EB98F7C001BFE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D8E7631EB98F7C001BFE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D8E76A1EB98F7C001BFE15;
+			remoteInfo = "Subma-ring";
+		};
+		56D8E78B1EB98F7D001BFE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56D8E7631EB98F7C001BFE15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D8E76A1EB98F7C001BFE15;
+			remoteInfo = "Subma-ring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567E38771EBBFEF000872AB2 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		567E38791EBC01F300872AB2 /* Glass_and_Metal_Collision.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glass_and_Metal_Collision.mp3; sourceTree = "<group>"; };
+		56D8E76B1EB98F7C001BFE15 /* Subma-ring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subma-ring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8E76E1EB98F7C001BFE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56D8E7701EB98F7C001BFE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56D8E7731EB98F7C001BFE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56D8E7751EB98F7C001BFE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56D8E7781EB98F7C001BFE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56D8E77A1EB98F7C001BFE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D8E77F1EB98F7C001BFE15 /* Subma-ringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subma-ringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8E7831EB98F7C001BFE15 /* Subma_ringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subma_ringTests.swift; sourceTree = "<group>"; };
+		56D8E7851EB98F7C001BFE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D8E78A1EB98F7D001BFE15 /* Subma-ringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Subma-ringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D8E78E1EB98F7D001BFE15 /* Subma_ringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subma_ringUITests.swift; sourceTree = "<group>"; };
+		56D8E7901EB98F7D001BFE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D8E79C1EB9A00B001BFE15 /* gameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameScene.swift; sourceTree = "<group>"; };
+		56D8E79E1EB9A8E0001BFE15 /* menuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuScene.swift; sourceTree = "<group>"; };
+		56D8E7A01EBAE879001BFE15 /* propeller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = propeller.png; sourceTree = "<group>"; };
+		56D8E7A21EBAE885001BFE15 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring.png; sourceTree = "<group>"; };
+		56D8E7A41EBAE88F001BFE15 /* smw_coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smw_coin.wav; sourceTree = "<group>"; };
+		56D8E7A61EBAE896001BFE15 /* submarine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submarine.png; sourceTree = "<group>"; };
+		56D8E7A91EBAFEAE001BFE15 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		56D8E7AB1EBAFEBB001BFE15 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56D8E7681EB98F7C001BFE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8E7AA1EBAFEAE001BFE15 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E77C1EB98F7C001BFE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E7871EB98F7C001BFE15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56D8E7621EB98F7C001BFE15 = {
+			isa = PBXGroup;
+			children = (
+				56D8E76D1EB98F7C001BFE15 /* Subma-ring */,
+				56D8E7821EB98F7C001BFE15 /* Subma-ringTests */,
+				56D8E78D1EB98F7D001BFE15 /* Subma-ringUITests */,
+				56D8E76C1EB98F7C001BFE15 /* Products */,
+				56D8E7A81EBAFEAE001BFE15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56D8E76C1EB98F7C001BFE15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56D8E76B1EB98F7C001BFE15 /* Subma-ring.app */,
+				56D8E77F1EB98F7C001BFE15 /* Subma-ringTests.xctest */,
+				56D8E78A1EB98F7D001BFE15 /* Subma-ringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56D8E76D1EB98F7C001BFE15 /* Subma-ring */ = {
+			isa = PBXGroup;
+			children = (
+				56D8E7A01EBAE879001BFE15 /* propeller.png */,
+				56D8E76E1EB98F7C001BFE15 /* AppDelegate.swift */,
+				56D8E7701EB98F7C001BFE15 /* ViewController.swift */,
+				56D8E7721EB98F7C001BFE15 /* Main.storyboard */,
+				56D8E7A21EBAE885001BFE15 /* ring.png */,
+				567E38771EBBFEF000872AB2 /* mine.png */,
+				56D8E7751EB98F7C001BFE15 /* Assets.xcassets */,
+				56D8E7A41EBAE88F001BFE15 /* smw_coin.wav */,
+				567E38791EBC01F300872AB2 /* Glass_and_Metal_Collision.mp3 */,
+				56D8E7771EB98F7C001BFE15 /* LaunchScreen.storyboard */,
+				56D8E77A1EB98F7C001BFE15 /* Info.plist */,
+				56D8E79C1EB9A00B001BFE15 /* gameScene.swift */,
+				56D8E7A61EBAE896001BFE15 /* submarine.png */,
+				56D8E79E1EB9A8E0001BFE15 /* menuScene.swift */,
+			);
+			path = "Subma-ring";
+			sourceTree = "<group>";
+		};
+		56D8E7821EB98F7C001BFE15 /* Subma-ringTests */ = {
+			isa = PBXGroup;
+			children = (
+				56D8E7831EB98F7C001BFE15 /* Subma_ringTests.swift */,
+				56D8E7851EB98F7C001BFE15 /* Info.plist */,
+			);
+			path = "Subma-ringTests";
+			sourceTree = "<group>";
+		};
+		56D8E78D1EB98F7D001BFE15 /* Subma-ringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56D8E78E1EB98F7D001BFE15 /* Subma_ringUITests.swift */,
+				56D8E7901EB98F7D001BFE15 /* Info.plist */,
+			);
+			path = "Subma-ringUITests";
+			sourceTree = "<group>";
+		};
+		56D8E7A81EBAFEAE001BFE15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56D8E7AB1EBAFEBB001BFE15 /* CoreMotion.framework */,
+				56D8E7A91EBAFEAE001BFE15 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56D8E76A1EB98F7C001BFE15 /* Subma-ring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D8E7931EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ring" */;
+			buildPhases = (
+				56D8E7671EB98F7C001BFE15 /* Sources */,
+				56D8E7681EB98F7C001BFE15 /* Frameworks */,
+				56D8E7691EB98F7C001BFE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subma-ring";
+			productName = "Subma-ring";
+			productReference = 56D8E76B1EB98F7C001BFE15 /* Subma-ring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56D8E77E1EB98F7C001BFE15 /* Subma-ringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D8E7961EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ringTests" */;
+			buildPhases = (
+				56D8E77B1EB98F7C001BFE15 /* Sources */,
+				56D8E77C1EB98F7C001BFE15 /* Frameworks */,
+				56D8E77D1EB98F7C001BFE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D8E7811EB98F7C001BFE15 /* PBXTargetDependency */,
+			);
+			name = "Subma-ringTests";
+			productName = "Subma-ringTests";
+			productReference = 56D8E77F1EB98F7C001BFE15 /* Subma-ringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56D8E7891EB98F7C001BFE15 /* Subma-ringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D8E7991EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ringUITests" */;
+			buildPhases = (
+				56D8E7861EB98F7C001BFE15 /* Sources */,
+				56D8E7871EB98F7C001BFE15 /* Frameworks */,
+				56D8E7881EB98F7C001BFE15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56D8E78C1EB98F7D001BFE15 /* PBXTargetDependency */,
+			);
+			name = "Subma-ringUITests";
+			productName = "Subma-ringUITests";
+			productReference = 56D8E78A1EB98F7D001BFE15 /* Subma-ringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56D8E7631EB98F7C001BFE15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kirsten Bauman";
+				TargetAttributes = {
+					56D8E76A1EB98F7C001BFE15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A4ARKQ7Y48;
+						ProvisioningStyle = Automatic;
+					};
+					56D8E77E1EB98F7C001BFE15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56D8E76A1EB98F7C001BFE15;
+					};
+					56D8E7891EB98F7C001BFE15 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 56D8E76A1EB98F7C001BFE15;
+					};
+				};
+			};
+			buildConfigurationList = 56D8E7661EB98F7C001BFE15 /* Build configuration list for PBXProject "Subma-ring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56D8E7621EB98F7C001BFE15;
+			productRefGroup = 56D8E76C1EB98F7C001BFE15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56D8E76A1EB98F7C001BFE15 /* Subma-ring */,
+				56D8E77E1EB98F7C001BFE15 /* Subma-ringTests */,
+				56D8E7891EB98F7C001BFE15 /* Subma-ringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56D8E7691EB98F7C001BFE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567E387A1EBC01F300872AB2 /* Glass_and_Metal_Collision.mp3 in Resources */,
+				56D8E7791EB98F7C001BFE15 /* LaunchScreen.storyboard in Resources */,
+				56D8E7A51EBAE88F001BFE15 /* smw_coin.wav in Resources */,
+				56D8E7A71EBAE896001BFE15 /* submarine.png in Resources */,
+				56D8E7A31EBAE885001BFE15 /* ring.png in Resources */,
+				567E38781EBBFEF000872AB2 /* mine.png in Resources */,
+				56D8E7A11EBAE879001BFE15 /* propeller.png in Resources */,
+				56D8E7761EB98F7C001BFE15 /* Assets.xcassets in Resources */,
+				56D8E7741EB98F7C001BFE15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E77D1EB98F7C001BFE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E7881EB98F7C001BFE15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56D8E7671EB98F7C001BFE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8E79D1EB9A00B001BFE15 /* gameScene.swift in Sources */,
+				56D8E79F1EB9A8E0001BFE15 /* menuScene.swift in Sources */,
+				56D8E7711EB98F7C001BFE15 /* ViewController.swift in Sources */,
+				56D8E76F1EB98F7C001BFE15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E77B1EB98F7C001BFE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8E7841EB98F7C001BFE15 /* Subma_ringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E7861EB98F7C001BFE15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D8E78F1EB98F7D001BFE15 /* Subma_ringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56D8E7811EB98F7C001BFE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D8E76A1EB98F7C001BFE15 /* Subma-ring */;
+			targetProxy = 56D8E7801EB98F7C001BFE15 /* PBXContainerItemProxy */;
+		};
+		56D8E78C1EB98F7D001BFE15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56D8E76A1EB98F7C001BFE15 /* Subma-ring */;
+			targetProxy = 56D8E78B1EB98F7D001BFE15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56D8E7721EB98F7C001BFE15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8E7731EB98F7C001BFE15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56D8E7771EB98F7C001BFE15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56D8E7781EB98F7C001BFE15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56D8E7911EB98F7D001BFE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56D8E7921EB98F7D001BFE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56D8E7941EB98F7D001BFE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = "Subma-ring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56D8E7951EB98F7D001BFE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ARKQ7Y48;
+				INFOPLIST_FILE = "Subma-ring/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		56D8E7971EB98F7D001BFE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Subma-ringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subma-ring.app/Subma-ring";
+			};
+			name = Debug;
+		};
+		56D8E7981EB98F7D001BFE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Subma-ringTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Subma-ring.app/Subma-ring";
+			};
+			name = Release;
+		};
+		56D8E79A1EB98F7D001BFE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Subma-ringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Subma-ring";
+			};
+			name = Debug;
+		};
+		56D8E79B1EB98F7D001BFE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Subma-ringUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ame494Mobile.Subma-ringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Subma-ring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56D8E7661EB98F7C001BFE15 /* Build configuration list for PBXProject "Subma-ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8E7911EB98F7D001BFE15 /* Debug */,
+				56D8E7921EB98F7D001BFE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D8E7931EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8E7941EB98F7D001BFE15 /* Debug */,
+				56D8E7951EB98F7D001BFE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D8E7961EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8E7971EB98F7D001BFE15 /* Debug */,
+				56D8E7981EB98F7D001BFE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D8E7991EB98F7D001BFE15 /* Build configuration list for PBXNativeTarget "Subma-ringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D8E79A1EB98F7D001BFE15 /* Debug */,
+				56D8E79B1EB98F7D001BFE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56D8E7631EB98F7C001BFE15 /* Project object */;
+}
